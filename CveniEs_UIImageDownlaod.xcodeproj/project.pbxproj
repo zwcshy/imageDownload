@@ -15,6 +15,8 @@
 		3A3E61BC1C7B5B2200B3DDEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A3E61BA1C7B5B2200B3DDEB /* LaunchScreen.storyboard */; };
 		3A3E61C71C7B5B2300B3DDEB /* CveniEs_UIImageDownlaodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3E61C61C7B5B2300B3DDEB /* CveniEs_UIImageDownlaodTests.m */; };
 		3A3E61D21C7B5B2300B3DDEB /* CveniEs_UIImageDownlaodUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3E61D11C7B5B2300B3DDEB /* CveniEs_UIImageDownlaodUITests.m */; };
+		3A3E61E31C7B5B3000B3DDEB /* CveniEsWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3E61E01C7B5B3000B3DDEB /* CveniEsWebImage.m */; };
+		3A3E61E41C7B5B3000B3DDEB /* UIImageView+DownLoadImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3E61E11C7B5B3000B3DDEB /* UIImageView+DownLoadImage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		3A3E61CD1C7B5B2300B3DDEB /* CveniEs_UIImageDownlaodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CveniEs_UIImageDownlaodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A3E61D11C7B5B2300B3DDEB /* CveniEs_UIImageDownlaodUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CveniEs_UIImageDownlaodUITests.m; sourceTree = "<group>"; };
 		3A3E61D31C7B5B2300B3DDEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A3E61DF1C7B5B3000B3DDEB /* CveniEsWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CveniEsWebImage.h; sourceTree = "<group>"; };
+		3A3E61E01C7B5B3000B3DDEB /* CveniEsWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CveniEsWebImage.m; sourceTree = "<group>"; };
+		3A3E61E11C7B5B3000B3DDEB /* UIImageView+DownLoadImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+DownLoadImage.m"; sourceTree = "<group>"; };
+		3A3E61E21C7B5B3000B3DDEB /* UIImageView+DownLoadImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+DownLoadImage.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				3A3E61B01C7B5B2200B3DDEB /* AppDelegate.m */,
 				3A3E61B21C7B5B2200B3DDEB /* ViewController.h */,
 				3A3E61B31C7B5B2200B3DDEB /* ViewController.m */,
+				3A3E61DF1C7B5B3000B3DDEB /* CveniEsWebImage.h */,
+				3A3E61E01C7B5B3000B3DDEB /* CveniEsWebImage.m */,
+				3A3E61E11C7B5B3000B3DDEB /* UIImageView+DownLoadImage.m */,
+				3A3E61E21C7B5B3000B3DDEB /* UIImageView+DownLoadImage.h */,
 				3A3E61B51C7B5B2200B3DDEB /* Main.storyboard */,
 				3A3E61B81C7B5B2200B3DDEB /* Assets.xcassets */,
 				3A3E61BA1C7B5B2200B3DDEB /* LaunchScreen.storyboard */,
@@ -272,7 +282,9 @@
 			files = (
 				3A3E61B41C7B5B2200B3DDEB /* ViewController.m in Sources */,
 				3A3E61B11C7B5B2200B3DDEB /* AppDelegate.m in Sources */,
+				3A3E61E31C7B5B3000B3DDEB /* CveniEsWebImage.m in Sources */,
 				3A3E61AE1C7B5B2200B3DDEB /* main.m in Sources */,
+				3A3E61E41C7B5B3000B3DDEB /* UIImageView+DownLoadImage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

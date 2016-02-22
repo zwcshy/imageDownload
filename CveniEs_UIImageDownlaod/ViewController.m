@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 
+#import "UIImageView+DownLoadImage.h"
+
 @interface ViewController ()
 
 @end
@@ -17,6 +19,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    NSString *imageStr = @"http://img6.cache.netease.com/3g/2015/12/14/20151214075020e2c56.jpg";
+    [self.imgView cvenies_setImageURLStr:imageStr];
 }
 
 - (void)didReceiveMemoryWarning {
